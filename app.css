@@ -1,0 +1,112 @@
+.con-cal {
+  display: flex;
+  font-style: oblique;
+  border-radius: 10px;
+  height: 30vh;
+  background-color: rgb(168, 192, 192);
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  justify-content: center;
+ 
+}
+.text-decoration{
+border-radius: 8px;
+padding: 10px;
+}
+.input-decoration{
+border-radius: 8px;
+cursor: pointer;
+}
+.text-detail{
+padding: 10px;
+
+}
+.endTime{
+
+display: none;
+visibility: hidden;
+}
+.cal-det{
+  position: relative;
+  top: 5vh;
+
+}
+.gcal{
+ display: none;
+  visibility: hidden;
+  position: absolute;
+  height: -3000vh;
+}
+.cal-det form{
+  padding: 10px;
+  font-size: large;
+  font-family: Arial, sans-serif;
+  position: relative;
+  font: bolder;
+  font-size: larger;
+  color: black;
+}
+.submit{
+border: none;
+cursor: pointer;
+color: aliceblue;
+position: relative;
+margin-top: 20px;
+font-size: larger;
+background: none;
+text-align: center;
+justify-content: center;
+bottom: 10px;
+}
+.text-detail {
+padding: 5px;
+}
+@media (max-width: 450px) {
+  .con-cal {
+      height: 40vh;
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: center;
+  }
+  .text-detail {
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      margin: 0 auto;
+      width: 100%;
+  }
+  .form-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-bottom: 10px;
+      justify-content: space-between;
+      width: 100%;
+  }
+  .text-detail label {
+      flex-basis: 30%;
+      text-align: right;
+      margin-right: 10px;
+  }
+  .text-detail input {
+      flex-basis: 60%;
+      padding: 5px;
+  }
+  .submit {
+      border: none;
+      cursor: pointer;
+      color: aliceblue;
+      position: relative;
+      margin-top: 5px;
+      font-size: larger;
+      background: none;
+      text-align: center;
+      justify-content: center;
+      bottom: 10px;
+  }
+  h1 {
+      font-size: 24px;
+      text-align: center;
+  }
+}
