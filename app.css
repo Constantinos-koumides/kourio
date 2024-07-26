@@ -61,9 +61,6 @@ bottom: 10px;
 }
 .text-detail {
   padding: 10px;
-  display: grid; /* Original grid layout for wider screens */
-  grid-template-columns: 1fr 2fr;
-  gap: 10px;
   align-items: center;
 }
 
