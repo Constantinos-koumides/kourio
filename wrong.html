@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+  <body>
+    
+      
+    <img src="14141.jpg" alt="" class="hero-img">
+    <section class="heropage">
+ 
+      <div class="text-overlay">
+       <h1>Welcome to Mespresso</h1>
+        <p>Enjoy the best coffee experience</p>
+       <!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet" class="">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1n0ERMFeZU25zQHiP5V6IEzG7ka7encvyWqyDkVvmW_cYHegQli15okQ6hRHabVx5g8tKhPpJC?gv=true',
+      color: '#039BE5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
+      </div>
+
+    </section>
+    
+    <section class="par1">
+      <div class="container">
+       
+        <div class="text-content">
+          <h2 id="About">Your Heading</h2>
+          <p>Αγαπητοί πελάτες, καλωσορίσατε στο κομμωτήριό μας! Εδώ, στόχος μας είναι να σας προσφέρουμε μια μοναδική εμπειρία ομορφιάς και χαλάρωσης. Είμαστε αφοσιωμένοι στο να αναδείξουμε την προσωπικότητά σας μέσα από τις πιο σύγχρονες τεχνικές και τα υψηλής ποιότητας προϊόντα που χρησιμοποιούμε. Η εξειδικευμένη ομάδα μας είναι εδώ για να ακούσει τις επιθυμίες σας και να σας προσφέρει εξατομικευμένες υπηρεσίες που θα σας κάνουν να νιώσετε ξεχωριστοί. Ευχαριστούμε που μας επισκεφθήκατε και ανυπομονούμε να σας εξυπηρετήσουμε!</p>
+        </div>
+        <img src="crepe3.jpg" alt="" class="side-image">
+      </div>
+      
+    </section> 
+    <section class="par2">
+      <div class="container2">
+       
+        <div class="text-content2">
+        
+          <h2>Your Heading</h2>
+          <p>Είμαστε εδώ για να μεταμορφώσουμε την καθημερινότητά σας και να προσφέρουμε μια εμπειρία χαλάρωσης και αναζωογόνησης. Από τις τελευταίες τάσεις στις κουπ μέχρι τις πιο κλασικές επιλογές, το εξειδικευμένο μας προσωπικό είναι έτοιμο να ικανοποιήσει κάθε σας επιθυμία. Ελάτε να ανακαλύψετε τη μαγεία της ανανέωσης και να απολαύσετε υπηρεσίες που σχεδιάζονται ειδικά για εσάς. Ευχαριστούμε που μας επιλέξατε!          </p>
+          
+        </div>
+        
+      </div>
+      
+    </section>
+    <section class="par3">
+     <div class="container3">
+     
+       <div class="text-content3">
+      
+          <h2 id="cont">Contacts</h2>
+          <a href="https://www.instagram.com/constantinos_koum/"><i2 class="icons fa-brands fa-instagram icon-cont"></i2></a>
+          <a href="mailto:const09kk@gmail.com"><i2 class="icons i2 fa-solid fa-envelope icon-cont"></i2></a>
+         <a href="const09kk@gmail.com"><i2 class="icons i2 fa-brands fa-tiktok icon-cont"></i2></a>
+        
+        </div>
+      
+      </div>
+    
+    </section>
+    <script>
+      function handleResize() {
+          if (window.innerWidth <= 550) {
+              document.querySelector('.par1').innerHTML = `
+                  <div class="container">
+                      <div class="text-content">
+                          <h2>Your Heading</h2>
+                          <p>Αγαπητοί πελάτες, καλωσορίσατε στο κομμωτήριό μας! Εδώ, στόχος μας είναι να σας προσφέρουμε μια μοναδική εμπειρία ομορφιάς και χαλάρωσης. Είμαστε αφοσιωμένοι στο να αναδείξουμε την προσωπικότητά σας μέσα από τις πιο σύγχρονες τεχνικές και τα υψηλής ποιότητας προϊόντα που χρησιμοποιούμε. Η εξειδικευμένη ομάδα μας είναι εδώ για να ακούσει τις επιθυμίες σας και να σας προσφέρει εξατομικευμένες υπηρεσίες που θα σας κάνουν να νιώσετε ξεχωριστοί. Ευχαριστούμε που μας επισκεφθήκατε και ανυπομονούμε να σας εξυπηρετήσουμε!</p>
+                          <img src="crepe3.jpg" alt="Description of image" class="side-image">
+                      </div>
+                  </div>
+              `;
+          } else {
+              document.querySelector('.par1').innerHTML = `
+      <div class="container">
+       
+        <div class="text-content">
+        
+          <h2 id="About">Your Heading</h2>
+          <p>Αγαπητοί πελάτες, καλωσορίσατε στο κομμωτήριό μας! Εδώ, στόχος μας είναι να σας προσφέρουμε μια μοναδική εμπειρία ομορφιάς και χαλάρωσης. Είμαστε αφοσιωμένοι στο να αναδείξουμε την προσωπικότητά σας μέσα από τις πιο σύγχρονες τεχνικές και τα υψηλής ποιότητας προϊόντα που χρησιμοποιούμε. Η εξειδικευμένη ομάδα μας είναι εδώ για να ακούσει τις επιθυμίες σας και να σας προσφέρει εξατομικευμένες υπηρεσίες που θα σας κάνουν να νιώσετε ξεχωριστοί. Ευχαριστούμε που μας επισκεφθήκατε και ανυπομονούμε να σας εξυπηρετήσουμε!</p>
+        </div>
+       <img src="crepe3.JPG" alt="Description of image" class="side-image">
+      </div>
+              `;
+          }
+      }
+
+      window.addEventListener('resize', handleResize);
+      document.addEventListener('DOMContentLoaded', handleResize);
+  </script>
+ 
+  </body>
+
+
+</html>
